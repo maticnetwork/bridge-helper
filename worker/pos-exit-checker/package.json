@@ -1,0 +1,33 @@
+{
+  "name": "pos-exit-checker",
+  "version": "1.0.0",
+  "description": "Lightweight microservice for checking child chain's `burnTxHash` exit status ( using POS bridge )",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maticnetwork/deposits-withdrawals-tracking.git"
+  },
+  "keywords": [
+    "matic",
+    "pos",
+    "bridge",
+    "withdraw",
+    "tracking"
+  ],
+  "author": "Anjan Roy <anjan.roy@matic.network>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/maticnetwork/deposits-withdrawals-tracking/issues"
+  },
+  "homepage": "https://github.com/maticnetwork/deposits-withdrawals-tracking#readme",
+  "dependencies": {
+    "@maticnetwork/maticjs": "^2.0.13",
+    "@truffle/hdwallet-provider": "^1.1.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
